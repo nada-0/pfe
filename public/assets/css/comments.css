@@ -1,0 +1,82 @@
+/* Add your CSS rules here */
+
+.post-comments {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.post-comments h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.existing-comments {
+    margin-bottom: 20px;
+}
+
+.comment {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment-user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.post-comment-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel-comment-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cancel-comment-btn:hover {
+    text-decoration: underline;
+}
+
+.login-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+.no-comments {
+    font-style: italic;
+    color: #888;
+}

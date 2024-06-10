@@ -1,0 +1,35 @@
+.all-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.card {
+    border: 1px solid rgba(176, 176, 176, 0.84);
+    border-radius: 5px;
+    padding: 20px;
+    width: 48.5%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card span {
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: block;
+    color: #013C58;
+}
+
+.card h1 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: black;
+}
+
+.card p {
+    color: #B0B0B0;
+}

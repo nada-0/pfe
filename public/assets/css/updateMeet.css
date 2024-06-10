@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #00509D;
+    --secondary-color: #00537A;
+    --highlight-color: #FFD35B;
+    --dark-accent-color: #013C58;
+    --accent-color: #F5A201;
+    --light-color: #A8E8F9;
+    --hover-color: #FFBA42;
+}
+
+.container-edit {
+    margin-top: 100px;
+}
+
+.input-label {
+    color: var(--dark-accent-color);
+}
+
+.input-field {
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-top: 5px;
+    color: var(--dark-accent-color);
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px var(--highlight-color);
+}
+
+.btn-meet-update {
+    background-color: #00537A;
+    color: #F5A201;
+    margin-top: 20px;
+    border: none;
+}
+
+.btn-meet-update:hover {
+    background-color: #F5A201;
+    color: #013C58;
+}
+
+.btn-meet-cancel {
+    background-color: #F5A201;
+    color: #013C58;
+    border: none;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.btn-meet-cancel:hover {
+    background-color: #00537A;
+    color: #F5A201;
+}

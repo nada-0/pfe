@@ -1,0 +1,44 @@
+.service-details-container {
+    margin-top: 100px; /* Adjust as needed */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #00537aa0;
+}
+
+/* Service title */
+.service-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #013C58;
+}
+
+.service-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #A8E8F9; /* Adjust text color */
+}
+
+/* Strong text */
+.service-label {
+    color: #FFD35B;
+}
+
+/* Back to services button */
+.back-to-services-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #FFD35B;
+    color: #00509D; /* Adjust text color */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.back-to-services-btn:hover {
+    background-color: #F5A201;
+}

@@ -1,0 +1,94 @@
+/* Custom CSS for services page */
+
+/* Page background */
+.service {
+    background-color: #00519db9;
+    color: #FFF;
+}
+
+/* Container for services */
+.services-container {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Service card */
+.service-card {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #00537A;
+    border-radius: 8px;
+    background-color: #A8E8F9;
+    width: 300px;
+}
+
+/* Service content */
+.service-content {
+    text-align: left;
+}
+
+/* Service title */
+.service-title {
+    color: #013C58;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Service description */
+.service-description {
+    color: #013C58;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Service category and author */
+.service-category, .service-author {
+    color: #013C58;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* View details button */
+.view-details-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #FFD35B;
+    color: #013C58;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.view-details-btn:hover {
+    background-color: #F5A201;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+}
+
+.pagination li {
+    margin: 0 10px;
+}
+
+.pagination li a,
+.pagination li span {
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #F5A201;
+    background-color: #fff;
+    border: 1px solid #F5A201; 
+    border-radius: 10px; 
+}
+
+.pagination li a:hover {
+    background-color: #FFF; 
+    border-color: #F5A201; 
+    color: #F5A201; 
+    cursor: pointer;
+}

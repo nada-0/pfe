@@ -1,0 +1,79 @@
+.littleCards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    background-color: #ffffff;
+}
+
+.titleCard {
+    margin: 40px 0;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.littleCards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    background-color: #ffffff;
+}
+
+.littleCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-size: cover;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.littleCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.titleCard {
+    margin: 40px 0;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.titleCard:hover{
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.seeMore{
+    display: flex;
+    flex-direction: column;
+    background-image: url('/assets/images/seeMore.png');
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-size: cover;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

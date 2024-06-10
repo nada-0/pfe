@@ -1,0 +1,49 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #A8E8F9;
+}
+.container {
+    max-width: 900px;
+    margin-top: 50px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h4 {
+    color: #00509D;
+    margin-bottom: 20px;
+}
+.form-label {
+    color: #013C58;
+}
+.form-control {
+    border-color: #FFD35B;
+}
+.form-control:focus {
+    border-color: #F5A201;
+    box-shadow: 0 0 0 0.2rem rgba(245, 162, 1, 0.25);
+}
+.btn-primary {
+    background-color: #00509D;
+    border-color: #00509D;
+}
+.btn-primary:hover {
+    background-color: #00537A;
+    border-color: #00537A;
+}
+img {
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+small.form-text {
+    color: #013C58;
+}
+#password_confirmation_group {
+    display: none;
+}

@@ -1,0 +1,153 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #CBCBCB;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.profile {
+    color: #013C58;
+    text-decoration: none;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.profile:hover,
+.profile:focus,
+.profile:active,
+.profile:visited {
+    color: #013C58;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: #013C58;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.dropdown-menu {
+    background-color: #013C58;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    min-width: 160px;
+    position: absolute;
+    right: 0;
+    z-index: 1000;
+}
+
+.dropdown-item {
+    background-color: #013C58;
+    color: #fff;
+    text-decoration: none;
+    /* padding: 10px; */
+    display: block;
+    font-size: 15px;
+}
+
+.dropdown-item:hover{
+    background-color: #013C58;
+    color: #fff;
+}
+
+.nav-link {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active,
+.nav-link:visited {
+    color: #fff;
+}
+
+.nav-link img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+}
+
+.info{
+    background-color: #fff;
+    padding-left: 75px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-header img {
+    position: relative;
+    top: 35px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.profile-header h4 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.profile-header p {
+    margin: 0;
+    font-size: 18px;
+    color: #666;
+}
+
+.section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.section a, .section p {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    color: #013C58;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.section i {
+    margin-right: 10px;
+}
+
+.section .right {
+    color: #00bfff;
+    margin-left: auto;
+}
+
+.cb{
+    font-size: 20px;
+    margin-right: 30px;
+}

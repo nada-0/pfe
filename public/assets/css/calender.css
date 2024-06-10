@@ -1,0 +1,101 @@
+:root {
+    --primary-color: #00509D;
+    --secondary-color: #00537A;
+    --highlight-color: #FFD35B;
+    --dark-accent-color: #013C58;
+    --accent-color: #F5A201;
+    --light-color: #A8E8F9;
+    --hover-color: #FFBA42;
+}
+
+.btn-meet{
+    background-color: var(--primary-color);
+    color: #FFBA42;
+}
+
+.btn-meet:hover{
+    background-color: var(--hover-color);
+    color: #013C58;
+}
+
+.container-calender{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.prev-month, .next-month {
+    text-decoration: none;
+    color: #FFBA42;
+    margin: 0 10px; 
+    font-size: 1em; 
+}
+
+.prev-month:hover, .next-month:hover {
+    color: #F5A201; 
+}
+
+.calendar {
+    width: 100%;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px; 
+    font-family: Arial, sans-serif;
+}
+
+.calendar-header {
+    text-align: center;
+    margin: 20px 0;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    font-size: 1.5em;
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+}
+
+.calendar-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.days, .week {
+    display: flex;
+    width: 100%;
+}
+
+.day {
+    width: calc(100% / 7);
+    border: 1px solid var(--secondary-color);
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: var(--light-color);
+    transition: background-color 0.3s ease;
+    border-radius: 6px; 
+}
+
+.day:hover {
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+
+.day .text-muted {
+    color: var(--dark-accent-color);
+}
+
+.day div {
+    margin-top: 5px;
+}
+
+.weekend {
+    background-color: var(--highlight-color);
+    color: var(--dark-accent-color);
+    font-weight: bold;
+}
+
+.day-name {
+    background-color: var(--accent-color);
+    color: white;
+    font-weight: bold;
+    border-top-left-radius: 6px; 
+    border-top-right-radius: 6px;
+}

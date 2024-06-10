@@ -1,0 +1,180 @@
+.login-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background: url('/assets/images/register-page.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.fp{
+    display: flex;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(1, 60, 88, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 40px;
+    width: 600px;
+    border: rgba(88, 130, 193, 0.49) 3px solid;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.form-login h5 {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.form-login h2 {
+    margin: 0.5rem 0 1rem 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.form-login label {
+    display: block;
+    margin: 0.75rem 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.form-login input[type="email"],
+.form-login input[type="password"],
+.form-login input[type="text"] {
+    width: 400px;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(188, 190, 192, 1);
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 50px;
+}
+
+.form-login input[type="email"]:focus,
+.form-login input[type="password"]:focus,
+.form-login input[type="text"]:focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.fa-arrow-left {
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.form-login input::placeholder {
+    color: rgba(188, 190, 192, 1);
+}
+
+.form-login button[type="submit"] {
+    width: 400px;
+    padding: 0.75rem;
+    background-color: rgba(0, 52, 101, 1) !important;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-login button[type="submit"]:hover {
+    background-color: rgba(0, 83, 122, 1) !important;
+    border: none;
+}
+
+.form-login .fa-eye,
+.form-login .fa-eye-slash {
+    position: absolute;
+    right: 1.5rem;
+    top: 63%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: rgba(199, 210, 214, 1);
+}
+
+.form-login div {
+    position: relative;
+    width: 400px;
+}
+
+.switch1 {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 5px;
+}
+
+.switch-register {
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+    .form-login {
+        padding: 1rem;
+        width: 90%;
+    }
+
+    .form-login input[type="email"],
+    .form-login input[type="password"],
+    .form-login input[type="text"],
+    .form-login button[type="submit"] {
+        width: calc(100% - 2rem);
+        max-width: 100%;
+    }
+
+    .form-login div {
+        width: calc(100% - 2rem);
+    }
+}
+
+.btn-link {
+    color: #fff; 
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+}
+
+.btn-link:hover {
+    color: #f5a201;
+}
+
+.form-check-input {
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.form-check-label {
+    color: #fff; 
+    cursor: pointer; 
+}
+
+.form-check-input:checked {
+    background-color: #f5a201; 
+    border-color: #f5a201; 
+}
+
+.form-check-input:checked:focus {
+    box-shadow: 0 0 0 0.2rem rgba(245, 162, 1, 0.5);
+}
+
+

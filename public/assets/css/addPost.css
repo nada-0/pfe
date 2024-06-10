@@ -1,0 +1,65 @@
+/* Add your CSS rules here */
+
+.create-post-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-top: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-post-title {
+    font-size: 32px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #013C58;
+}
+
+.create-post-form .form-group {
+    margin-bottom: 25px;
+}
+
+.create-post-form .form-label {
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+    color: #00509D;
+}
+
+.create-post-form .form-control {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.create-post-form .form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+}
+
+.create-post-form .alert {
+    margin-top: 15px;
+}
+
+.create-post-form .btn.create-post-btn {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #FFD35B;
+    color: #00537A;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.create-post-form .btn.create-post-btn:hover {
+    background-color: #F5A201;
+}

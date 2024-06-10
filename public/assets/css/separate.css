@@ -1,0 +1,15 @@
+/* public/assets/css/separate.css */
+.separate {
+    background-image: url('/assets/images/Asset1.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.separate p {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: medium;
+}

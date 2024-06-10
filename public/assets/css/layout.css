@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other content */
+    top: 0; /* Stick it to the top */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    color: #013C58;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.brand:hover {
+    color: #013C58;
+}
+
+.all-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    background-color: #00509D;
+    color: #ffffff;
+    border: solid 2px #00509D;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.icon i {
+    font-size: 20px;
+}
+
+.icon:hover,
+.icon.clicked {
+    background-color: #ffffff;
+    color: #00509D;
+}
+
+.search {
+    position: relative;
+}
+
+.inputSearch {
+    background-color: rgba(0, 0, 0, 0.06);
+    color: #00509D;
+    width: 450px;
+    height: 40px !important;
+    border-radius: 8px;
+    padding: 5px;
+    border: none;
+}
+
+.inputSearch:focus{
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.inputSearch::placeholder {
+    color: #00537A;
+}
+
+.iconSearch {
+    position: absolute;
+    right: 25px;
+    color: #00537A;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.allContent {
+    display: flex ;
+    gap: 10px ;
+    margin-left: 200px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.sign {
+    background-color: #F5A201;
+    color: #FFFFFF;
+    border: solid 2px #F5A201;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.sign:hover {
+    background-color: #FFFFFF;
+    color: #F5A201;
+    border: solid 2px #F5A201;
+}
+
+.footer {
+    background-color: #013C58;
+    color: #FFD35B;
+    display: flex;
+    justify-content: center;
+    padding: 5px 50px;
+    align-items: center;
+    /* position: fixed;
+    width: 100%;
+    z-index: 1000; 
+    bottom: 0; */
+}
+
+.profile-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.footer-name {
+    color: #FFD35B;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.footer-name:hover {
+    color: #FFD35B;
+}
+
+.all-footers-name {
+    display: flex;
+    gap: 10px;
+    padding-left: 340px;
+}
+
+footer .col {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.notification {
+    background-color: #F5A201;
+    color: #FFFFFF;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the icon vertically */
+}
+
+.notification a {
+    display: flex;
+    align-items: center; /* Center the icon vertically */
+}
+
+.notification ul, .notification ul li {
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+.user-name {
+    margin-right: 10px; /* Add space between user name and notification */
+}
+
+.dropdown-menu {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.dropdown-item {
+    padding: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: #f5f5f5;
+}
+
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+}

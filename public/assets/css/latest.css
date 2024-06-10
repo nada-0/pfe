@@ -1,0 +1,78 @@
+.card-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.latest {
+    background-color: #A8E8F9;
+    padding: 20px;
+}
+
+.card-latest {
+    border: none;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-header {
+    border-bottom: none;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #013C58;
+    padding: 20px;
+}
+
+.name {
+    color: #00537A;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+}
+
+.announcement-item, .top-rated-item, .popular-post-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: nowrap; /* Ensure items don't wrap */
+}
+
+.announcement-image, .top-rated-image, .popular-post-image {
+    border-radius: 50%;
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.announcement-details, .top-rated-details, .popular-post-details {
+    flex-grow: 1;
+    max-width: calc(100% - 65px);
+    display: flex;
+    flex-direction: column;
+}
+
+.announcement-details strong, .top-rated-details strong, .popular-post-details strong {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.location {
+    color: #FFD35B;
+}
+
+@media (min-width: 768px) {
+    .row > [class*='col-'] {
+        margin-bottom: 30px;
+    }
+}
