@@ -69,7 +69,7 @@
             </div>
         </div>
         <div class="section">
-            <a href="{{ route('meetups.index') }}"><i class="fa-solid fa-hand-holding-hand"></i> Calender</a>
+            <a href="{{ route('meetups.index') }}"><i class="fa-solid fa-calendar-days"></i> Calender</a>
             <a href="{{route('profiles.destroy')}}" style="color: red"><i class="fa-solid fa-trash"></i> Delete my account</a>
         </div>
     </div>
