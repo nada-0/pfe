@@ -99,7 +99,8 @@
             request()->route()->getName() !== 'posts.addPost' &&
             request()->route()->getName() !== 'posts.editPost' &&
             request()->route()->getName() !== 'meetups.show' &&
-            request()->route()->getName() !== 'meetups.edit')
+            request()->route()->getName() !== 'meetups.edit' &&
+            request()->route()->getName() !== 'posts.comments')
         <footer>
             <div class="footer">
                 <div class="col">
